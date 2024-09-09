@@ -1,3 +1,67 @@
 body {
+background-color: rgba(152, 89, 184, 0.113);
+
+}
+
+h1 {
+font-size: 36px;
 text-align: center;
+}
+
+h2 {
+margin: 0 10px;
+font-size: 28px;
+}
+select {
+background: rgba(252, 252, 252, 0.113);
+box-shadow: #32325d40 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+display: block;
+font-size: 18px;
+width: 100%;
+padding: 10px;
+border-radius: 8px;
+border: none;
+
+}
+.container {
+background: #fff;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 18px;
+font-family: sans-serif;
+margin: 60px auto;
+max-width: 600px;
+padding: 60px;
+}
+
+
+.cities {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+margin: 20px 0;
+border: none;
+border-radius: 50px;
+box-shadow: #ebebef00 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+
+}
+
+.time {
+font-size: 40px;
+font-family: sans-serif;
+font-weight: 600;
+}
+
+.date {
+opacity: 0.6;
+}
+.time small {
+vertical-align: middle;
+line-height: 36px;
+font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
 }
