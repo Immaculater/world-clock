@@ -33,7 +33,7 @@ max-width: 600px;
 padding: 60px;
 }
 
-.cities {
+.city {
 display: flex;
 justify-content: space-between;
 padding: 20px;
@@ -41,7 +41,6 @@ margin: 20px 0;
 border: none;
 border-radius: 50px;
 box-shadow: #ebebef00 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
-box-sizing: 100%;
 }
 
 .time {
