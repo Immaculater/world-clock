@@ -22,7 +22,19 @@ function updateDateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+let phoenixElement = document.querySelector("#phoenix");
+if (phoenixElement) {
+  let phoenixDateElement = phoenixElement.querySelector(".date");
+  let phoenixTimeElement = phoenixElement.querySelector(".time");
+  let phoenixTime = moment().tz("America/Phoenix");
+
+  phoenixDateElement.innerHTML = phoenixTime.format("MMMM Do YYYY");
+  phoenixTimeElement.innerHTML = phoenixTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
 }
+  }
+
 updateDateTime();
 setInterval(updateDateTime, 1000);
 
@@ -45,6 +57,7 @@ function updateCity(event) {
     "A"
   )}</small></div>
       </div>
+     <a href="/">All Cities</a>
       `;
 }
 
